@@ -1,3 +1,15 @@
+## 1.4.0
+
+* Decorate non-nil objects where `nil?` returns true, namely, ActionText::RichText body [@jamesbrooks]
+
+## 1.3.4
+
+* Support Rails 6.1 [@y-yagi]
+
+## 1.3.3
+
+* Fixed Ruby 2.7 keyword arguments warning [@pocke]
+
 ## 1.3.2
 
 * Fixed NameError on ActionController::API controllers without jbuilder enhancement [@kamillle]
